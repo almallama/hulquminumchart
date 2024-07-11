@@ -1,0 +1,317 @@
+@font-face {
+    font-family: IPASansL;
+    src: url(webfonts/ipa_sans_L.woff) format('woff'), url(webfonts/ipa_sans_L.ttf) format('ttf'), url(webfonts/ipa_sans_L.otf) format('otf');
+}
+
+@font-face {
+    font-family: IPASansS;
+    src: url(webfonts/ipa_sans_S.woff) format('woff'), url(webfonts/ipa_sans_S.ttf) format('ttf'), url(webfonts/ipa_sans_S.otf) format('otf');
+}
+
+@font-face {
+    font-family: IPASansSMid;
+    src: url(webfonts/ipa_sans_S.svg) format('svg');
+}
+
+@font-face {
+    font-family: DejaVuSans;
+    src: url(webfonts/DejaVuSans.ttf);
+}
+
+/*DISPLAY*/
+/*display*/
+body, .type_cont, .table_cont, .manu_cont, .table_cont_2, .table_cont_3, .colhead, .rowhead, .tablesT, .ipa, .tooltip, .close_cont, .close_cont_IE, .main_container {display: block;}
+.tc_H, .tablesL, .tablesR {display: inline-block;}
+.trans_fsize, .copy_symbol, .sel_symbol {display: inline;}
+.s_scont, .symbol_descr_audio {display: table-cell;}
+.preview {display: none;}
+/*float*/
+.trans_fsize, .s_cont_right, .tablesR {float: right;}
+.s_cont_left {float: left;}
+/*position*/
+.type_cont, .table_cont, .manu_cont, .table_cont_2, .table_cont_3, .ipa {position: relative;}
+.preview, .tooltip {position: fixed; top: 0px; left: -3000px;}
+.close_cont, .close_cont_IE {position: absolute; right: 10px;}
+.close_cont {bottom: 35px;}
+.close_cont_IE {bottom: 40px;}
+/*overflow*/
+body {overflow-y: scroll;}
+.colhead, .rowhead, .tooltip, .trans_i, .trans_i_K {overflow-y: hidden;}
+/*resize*/
+.trans_i, .trans_i_K {resize: vertical;}
+
+/*BORDERS*/
+/*border style*/
+table, td, .trans, .about, .trans_IE, .about_IE, .table_cont_2, .table_cont_3, .cpall, .cnpsym, .cnpsymT, .cnpsymB, .cnpdescr, .cnpdescrT, .cnpdescrB, .diasym, .diadescr, .tsymL, .tsymLB, .tdescrR, .tdescrRB, .tdescrB, .tooltip, .s_cont_right {border: solid;}
+.blank_N, .blank_W, .trans_fsize, .close_cont, .close_cont_IE, .trans_button, .trans_button_U, .trans_button_K, .type_cont, .table_cont, .manu_cont, .table_plain, .td_plain, .table_plain_vs, .cosym, .cosymvless, .cosymvd, .codescr, .vsym, .vsym3, .vsym5, .vdescr, .vdescr5, .vdescr7, .vdescr9, .suprasym, .supradescr, .tsym, .tdescr, .tdescrM, .s_cont_S, .s_cont_S_Tor, .s_cont_S_K1, .s_cont_S_K2, .s_cont_S_Mid, .s_cont_S_IE, .s_cont_L, .s_descr, .s_descr_H, .symbol_blank, .symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_8, .symbol_ex_long, .symbol_close, .ex_button, .ex_button_x, .symbol_descr_audio, .audio_blank, .play_1, .play_2, .pause, .loop, .volup, .voldown, .mute, .ipa, .t_fsize, .td_about, .td_about_a, .td_about_b, .td_about_descr, .td_about_descr_hex, .td_about_descr_i, .tooltipL, .tooltipR, .tooltipM, .copy_symbol, .sel_symbol, .trans_i, .trans_i_K, .manu, .td_charts, .td_charts_h {border: none;}
+.main_container {border: ridge;}
+.s_cont_right {border: inset;}
+/*border-width*/
+.cnpsym, .cnpsymT, .cnpsymB, .cnpdescr, .cnpdescrT, .cnpdescrB, .tsymL, .tsymLB, .tdescrR, .tdescrRB, .tdescrB, .trans_i, .trans_i_K, .manu, .s_cont_left, .s_cont_right {border-width: 0px;}
+table, td, .table_cont_3, .cpall, .diasym, .diadescr {border-width: 1px;}
+.trans, .about, .trans_IE, .about_IE, .table_cont_2, .tooltip {border-width: 2px;}
+.main_container {border-width: 7px;}
+.cpvd, .cpvlessnone, .cpvdnone, .cpvdblank, .diadescr {border-left-width: 0px;}
+.cpvless, .cpvlessnone, .cpvdnone, .cpvlessblank, .diasym {border-right-width: 0px;}
+.cnpsym, .cnpsymT, .cnpsymB, .tsymL, .tsymLB {border-left-width: 1px;}
+.cnpdescr, .cnpdescrT, .cnpdescrB, .tdescrR, .tdescrRB {border-right-width: 1px;}
+.s_cont_right {border-left-width: 2px;}
+.cnpsymT, .cnpdescrT {border-top-width: 1px;}
+.cnpsymB, .cnpdescrB, .tsymLB, .tdescrRB, .tdescrB {border-bottom-width: 1px;}
+/*border-radius*/
+table, .trans, .about, .trans_IE, .about_IE, .cpmetaL, .cnpmetaL, .tooltip {border-top-left-radius: 11px;}
+table, .trans, .about, .trans_IE, .about_IE, .cpmetaR, .cnpmetaR, .tooltip {border-top-right-radius: 11px;}
+.table_plain_vs, .s_descr, .manu {border-top-left-radius: 0px; border-top-right-radius: 0px;}
+/*border-color*/
+table, td, .trans, .about, .trans_IE, .about_IE, .table_cont_2, .table_cont_3, .cpall, .cnpsym, .cnpsymT, .cnpsymB, .cnpdescr, .cnpdescrT, .cnpdescrB, .diasym, .diadescr, .tsymL, .tsymLB, .tdescrR, .tdescrRB, .tdescrB, .main_container, .tooltip, .s_cont_right {border-color: rgba(193,79,30,1);}
+/*border-spacing*/
+table, td, .table_plain_vs {border-spacing: 0px;}
+/*box-shadow*/
+table, .table_cont_2, .table_cont_3 {box-shadow: 0 0 0 1px rgba(50,50,50,1);}
+.tooltip {box-shadow: 0 0 0 1px rgba(50,50,50,0.75), 0 0 5px 5px rgba(50,50,50,0.75);}
+.table_plain, .table_plain_vs, .td_plain, .s_descr, .t_fsize, .td_about, .td_about_descr, .td_about_descr_hex, .td_about_descr_i, .trans_fsize, .close_cont, .close_cont_IE, .manu {box-shadow: none;}
+.trans, .about, .trans_IE, .about_IE {box-shadow: 0 0 0 1px rgba(50,50,50,1), 0 25px 25px 0px rgba(30,30,30,0.75), 0 -25px 25px 10px rgba(30,30,30,0.75);}
+
+/*BACKGROUNDS*/
+/*background image*/
+.blank_N, .blank_W {background: url(images/blank_out.png);}
+.bckg_v_IE {background: url(images/vowel_space_IE.png);}
+.bckg_v_Edge {background: url(images/vowel_space_Edge.png);}
+.bckg_v_Safari {background: url(images/vowel_space_Safari.png);}
+.bckg_v_Opera {background: url(images/vowel_space_Opera.png);}
+.bckg_v_Chrome {background: url(images/vowel_space_Chrome.png);}
+.bckg_v_Firefox {background: url(images/vowel_space_Firefox.png);}
+.bckg_v_Baidu {background: url(images/vowel_space_Baidu.png);}
+.bckg_v_other {background: url(images/vowel_space_Chrome.png);}
+.play_1 {background: url(images/play_1_out.png);}
+.play_1:hover {background: url(images/play_1_over.png);}
+.play_1:active {background: url(images/play_1_down.png);}
+.play_2 {background: url(images/play_2_out.png);}
+.pause {background: url(images/pause_out.png);}
+.loop {background: url(images/loop_out.png);}
+.volup {background: url(images/volup_out.png);}
+.voldown {background: url(images/voldown_out.png);}
+.mute {background: url(images/mute_out.png);}
+/*background-position*/
+.type_cont, .table_cont, .manu_cont, .table_cont_2, .table_cont_3, .ipa {background-position: top;}
+/*background-size*/
+.blank_N, .blank_W, .bckg_v_Firefox, .bckg_v_other, .play_1, .play_2, .pause, .loop, .volup, .voldown, .mute {background-size: contain;}
+.bckg_v_IE, .bckg_v_Safari, .bckg_v_Opera, .bckg_v_Chrome {background-size: cover;}
+/*background-repeat*/
+.trans_bckg_2, .type_cont {background-repeat: repeat-x;}
+.blank_N, .blank_W, .bckg_v_IE, .bckg_v_Firefox, .bckg_v_Safari, .bckg_v_Opera, .bckg_v_Chrome, .bckg_v_Firefox, .bckg_v_other, .play_1, .play_2, .pause, .loop, .volup, .voldown, .mute {background-repeat: no-repeat;}
+/*background-color*/
+body, .manu {background-color: rgba(30,30,30,1);}
+table {background-color: rgba(193,79,30,1);}
+.cpvlessblank, .cpvdblank, .cpallblank {background-color: rgba(226,183,154,1);}
+td, .trans, .about, .trans_IE, .about_IE, .cpall, .diasym, .diadescr, .main_container, .t_fsize, .tooltip {background-color: rgba(255,255,255,1);}
+.trans_fsize, .close_cont, .close_cont_IE, .trans_button, .trans_button_U, .trans_button_K, .table_plain, .table_plain_vs, .td_plain, .vsym, .vsym3, .vsym5, .ex_button, .ex_button_x, .play_1, .play_2, .pause, .loop, .volup, .voldown, .mute, .s_cont_S, .s_cont_S_Tor, .s_cont_S_K1, .s_cont_S_K2, .s_cont_S_Mid, .s_cont_S_IE, .s_cont_L, .s_scont, .s_descr, .s_descr_H, .symbol_blank, .audio_blank, .symbol_descr_audio, .symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_8, .symbol_ex_long, .symbol_close {background-color: transparent;}
+/*background-gradient*/
+.cpmeta_colL, .cpmeta_colR, .cpmetaL, .cpmetaR, .cpmeta_row, .cnpmeta, .cnpmetaL, .cnpmetaR {
+	background-color: rgb(200,85,34);
+	background: url(images/bckg.png);
+	background-repeat: repeat-x;
+	background-size: contain;
+	background: -webkit-linear-gradient(270deg, rgba(227,101,40,1), rgba(201,85,34,1)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(180deg, rgba(227,101,40,1), rgba(201,85,34,1)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(180deg, rgba(227,101,40,1), rgba(201,85,34,1)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(180deg, rgba(227,101,40,1), rgba(201,85,34,1)); /* Standard syntax */
+}
+
+/*TEXT*/
+html, body {text-rendering: geometricPrecision;}
+/*color*/
+body, .trans, .about, .trans_IE, .about_IE, .trans_i, .trans_i_K, .symS, .symS_Mid, .symS_Tor, .symL, .symL_IE, .symSL2, .symSL3, .symSR2, .symSR3, .s_cont_S, .s_cont_S_Tor, .s_cont_S_K1, .s_cont_S_K2, .s_cont_S_Mid, .s_cont_S_IE, .s_cont_L, .td_about_descr, .td_about_descr_hex, .td_about_descr_i, .about_thanks, .tooltip {color: rgba(50,50,50,1);}
+h1, A:link, A:visited, .tc_H, .comment, .comment_v, .ex_button, .ex_button_x {color: rgba(227,101,40,1);}
+A:hover, .ex_button:hover, .ex_button_x:hover {color: rgba(254,206,49,1);}
+.trans_button, .trans_button_U, .trans_button_K {color: rgba(174,174,174,0.75);}
+.colhead, .rowhead, .ipa, .sel_symbol, .manu, .charts_2018 {color: rgba(255,255,255,1);}
+.sym_descr, .sym_descr_com, .sym_descr_v, .sym_descr_t, .diadescr, .supradescr {color: rgba(166,59,10,1);}
+/*font*/
+.td_about_descr, .td_about_descr_hex, .td_about_descr_i, .copy_symbol {font: inherit;}
+/*font-family*/
+body, .tooltip, .charts_2018 {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.blank_N, .blank_W, .trans_button, .colhead, .rowhead, .sym_descr, .sym_descr_com, .sym_descr_v, .sym_descr_t, .diadescr, .supradescr, .s_descr, .s_descr_H, .symbol_blank, .ex_button, .symbol_descr_audio {font-family: inherit;}
+.symL, .symL_IE, .ex_button_x, .sel_symbol {font-family: DejaVuSans;}
+.trans_button_U, .trans_button_K, .trans_i, .trans_i_K, .s_cont_L, .symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_8, .symbol_ex_long, .sym_about_mod, .tooltip_L, .resize {font-family: IPASansL;}
+.symS, .symS_Tor, .symSL2, .symSL3, .symSR2, .symSR3, .s_cont_S, .s_cont_S_Tor, .s_cont_S_K1, .s_cont_S_K2, .s_cont_S_IE, .tooltip_S, .tooltip_S_IE, .sym_about_mod_S {font-family: IPASansS;}
+.symS_Mid, .s_cont_S_Mid, .tooltip_S_Mid {font-family: IPASansSMid;}
+/*font-kerning*/
+.trans_i, .trans_i_K, .symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_8, .symbol_ex_long {font-kerning: normal;}
+/*font-size*/
+.sel_symbol {font-size: 1px;}
+.symbol_blank {font-size: 5px;}
+.colhead, .rowhead, .sym_descr_v {font-size: 13px;}
+body, .comment, .comment_v, .ex_button_x {font-size: 14px;}
+.trans_button, .trans_button_U, .trans_button_K, .symbol_descr_audio, .blank_N, .blank_W, .sym_descr, .sym_descr_com, .sym_descr_t, .diadescr, .supradescr, .s_descr, .s_descr_H, .manu {font-size: 15px;}
+.symbol_ex_long, .tooltip {font-size: 16px;}
+.resize {font-size: 18px;}
+h1, .tc_H, .symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_8, .ex_button, .tooltip_S, .tooltip_S_IE, .tooltip_S_Mid, .tooltip_L, .trans_i_K, .charts_2018 {font-size: 20px;}
+.symS, .symS_Mid, .symS_Tor, .symL, .symL_IE, .symSL2, .symSL3, .symSR2, .symSR3 {font-size: 27px;}
+.s_cont_S, .s_cont_S_Tor, .s_cont_S_K1, .s_cont_S_K2, .s_cont_S_Mid, .s_cont_S_IE, .s_cont_L {font-size: 300px;}
+.trans_i {font-size: 1.4285em;}
+/*font-weight*/
+h1, .tc_H, .trans_i, .trans_i_K, .colhead, .symS, .symS_Mid, .symS_Tor, .symL, .symL_IE, .symSL2, .symSL3, .symSR2, .symSR3, .sym_descr, .sym_descr_com, .sym_descr_v, .sym_descr_t, .comment, .comment_v, .diadescr, .supradescr, .s_cont_S, .s_cont_S_Tor, .s_cont_S_K1, .s_cont_S_K2, .s_cont_S_Mid, .s_cont_S_IE, .s_cont_L, .s_descr, .symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_8, .symbol_ex_long, .symbol_descr_audio, .about_thanks, .tooltip {font-weight: normal;}
+.blank_N, .blank_W, .trans_button, .trans_button_U, .trans_button_K, .s_descr_H, .ex_button, .charts_2018 {font-weight: bold;}
+/*font-italic*/
+.symbol_descr_audio, .td_about_descr_i, .about_thanks, .tooltipL {font-style: italic;}
+/*text-decoration*/
+A {text-decoration: none;}
+/*letter-spacing*/
+.blank_W {letter-spacing: 2px;}
+/*line-height*/
+.trans_i, .trans_i_K {line-height: 1.35em;}
+.manu {line-height: 22px;}
+.tooltip_L {line-height: 24px;}
+/*white-space*/
+.sym_descr_com {white-space: normal;}
+A, .sym_descr_v, .sym_descr_t, .codescr, .diadescr, .supradescr, .s_descr_H, .symbol_descr_audio {white-space: nowrap;}
+/*text-align*/
+body, .sym_descr_com, .comment_v {text-align: justify;}
+.rowhead, .symSL2, .symSL3, .sym_descr, .diadescr, .vdescr, .vdescr5, .vdescr9, .supradescr, .tdescrR, .tdescrRB, .tdescrB, .tdescrB, .tablesT, .tablesL, .tablesR, .s_descr, .s_descr_H, .symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_8, .symbol_ex_long, .symbol_descr_audio, .tooltip {text-align: left;}
+.sel_type, .colhead, .cpvless, .cpvd, .cpvlessnone, .cpvdnone, .cpall, .comment, .cnpsym, .cnpsymT, .cnpsymB, .cosym, .cosymvless, .cosymvd, .diasym, .vsym, .vsym3, .vsym5, .vdescr7, .suprasym, .tsym, .tsymL, .tsymLB, .tdescr, .main_container, .td_about, .td_about_descr_hex, .resize, .charts_2018 {text-align: center;}
+.trans_button, .trans_button_U, .trans_button_K, .symSR2, .symSR3, .symbol_close {text-align: right;}
+.tooltip {text-align: justify;}
+/*vertical-align*/
+.tablesT, .tablesL, .tablesR, .s_descr, .s_descr_H, .td_plain {vertical-align: top;}
+.colhead, .rowhead, .sym_descr, .sym_descr_com, .diadescr, .vsym, .vsym3, .vsym5, .vsym5, .vdescr5, .vdescr7, .vdescr9, .supradescr, .tdescr, .tdescrR, .tdescrRB, .tdescrB, .tdescrM, .symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_8, .symbol_ex_long, .symbol_descr_audio, .tooltip, .tooltipL, .tooltipR {vertical-align: middle;}
+.tooltip_S_IE {vertical-align: bottom;}
+
+/*SIZE*/
+/*width*/
+.type_cont, .table_cont, .manu_cont, .td_about_descr, .td_about_descr_hex, .td_about_descr_i, .tooltip {width: auto;}
+.s_descr, .symbol_close, .t_fsize {width: 100%;}
+.vsym {width: 10px;}
+.play_1, .play_2, .pause, .loop, .volup, .voldown, .mute, .td_about {width: 25px;}
+.td_about_a, .td_about_b {min-width: 200px;}
+.cosymvless, .cosymvd {width: 28px;}
+.vsym3 {width: 33px;}
+.cpvless, .cpvd, .cpvlessnone, .cpvdnone, .cnpsym, .cnpsymT, .cnpsymB, .cosym, .diasym, .suprasym, .tsym, .tsymL, .tsymLB {width: 34px;}
+.symbol_ex, .audio_blank {width: 36px; max-width: 36px; min-width: 36px;}
+.symbol_ex_2 {width: 72px; max-width: 72px; min-width: 72px;}
+.symbol_ex_3 {width: 108px; min-width: 108px; max-width: 108px;}
+.symbol_ex_8, .symbol_ex_long, .ipa {width: 288px; min-width: 288px; max-width: 288px;}
+.cpall, .cpallblank {width: 38px;}
+.cpvlessblank, .cpvdblank {width: 40px;}
+.vsym5, .vdescr5 {width: 50px;}
+.vdescr7 {width: 70px;}
+.cpmetaR {width: 78px; min-width: 78px; max-width: 78px;}
+.cpmeta_colL {width: 80px; min-width: 80px; max-width: 80px;}
+.cpmeta_colR {width: 81px; min-width: 81px; max-width: 81px;}
+.cpmeta_row {width: 84px; min-width: 84px; max-width: 84px;}
+.vdescr9 {width: 90px;}
+.blank_N, .blank_W {width: 136px;}
+.td_charts, .td_charts_h {min-width: 100px; max-width: 200px;}
+.table_plain_vs {width: 356px;}
+.s_cont_right, .s_cont_left {width: 463px; min-width: 463px; max-width: 463px;}
+.main_container {width: 936px;}
+.trans_i, .trans_i_K {width: 958px;}
+.trans {width: 978px;}
+.trans_IE {width: 980px;}
+.about, .manu {width: 983px;}
+.about_IE {width: 985px;}
+body {width: 1000px;}
+/*max-width*/
+.trans_i, .trans_i_K {max-width: 100%;}
+.td_about {max-width: 50px;}
+.sym_descr_com {max-width: 268px;}
+.tooltip {max-width: 345px;}
+/*height*/
+.trans, .about, .manu, .trans_IE, .about_IE {height: 100%;}
+.trans_fsize, .close_cont, .close_cont_IE, .t_fsize {height: 0px;}
+.s_descr, .tooltipR {height: 10px;}
+.blank_N, .blank_W, .play_1, .play_2, .pause, .loop, .volup, .voldown, .mute {height: 25px;}
+.vsym, .vsym3, .vsym5 {height: 30px;}
+.trans_i, .trans_i_K {height: 20px; min-height: 0px;}
+.cpmeta_colL, .cpmeta_colR, .cpmetaL, .cpmetaR, .cpmeta_row, .cpvless, .cpvd, .cpvlessnone, .cpvdnone, .cpvlessblank, .cpvdblank, .cpall, .cpallblank, .cnpmeta, .cnpmetaL, .cnpmetaR, .cnpsym, .cnpsymT, .cnpsymB, .cnpdescr, .cnpdescrT, .cnpdescrB, .cosym, .cosymvless, .cosymvd, .codescr, .diasym, .diadescr, .vdescr, .vdescr5, .vdescr7, .vdescr9, .suprasym, .supradescr, .tsym, .tsymL, .tsymLB, .tdescr, .tdescrR, .tdescrRB, .tdescrB, .tdescrM {height: 39px;}
+.main_container, .s_cont_right, .s_cont_left {height: 430px; min-height: 430px; max-height: 430px;}
+
+/*MARGINS*/
+body {margin: auto;}
+.main_container, .s_cont_right, .s_cont_left, .symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_8, .symbol_ex_long {margin: 0px;}
+.comment_v {margin-left: 95px;}
+.s_cont_S_K2 {margin-left: 139px;}
+.trans_i, .trans_i_K {margin-top: 0px; margin-bottom: 0px;}
+.tooltip_S_IE {margin-top: 3px;}
+.s_cont_L {margin-top: 18px;}
+.s_cont_S, .s_cont_S_Tor {margin-top: 25px;}
+.s_cont_S_Mid {margin-top: 41px;}
+.s_cont_S_IE {margin-top: 56px;}
+.s_cont_S_K1, .s_cont_S_K2 {margin-top: 53px;}
+
+/*PADDING*/
+table, td, .trans_button, .trans_button_U, .trans_button_K, .main_container, .s_cont_right, .s_cont_left, .symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_8, .symbol_ex_long {padding: 0px;}
+.tooltip {padding: 9px;}
+.ipa {padding: 20px;}
+/*padding-left*/
+.symSL2, .cpmetaL {padding-left: 2px;}
+.symSL3 {padding-left: 3px;}
+.sym_descr_com, .cpvless, .cpvlessnone, .cnpmeta, .cnpmetaL, .cnpmetaR, .cosymvless, .td_about, .tooltipR, .trans_i, .trans_i_K {padding-left: 6px;}
+.s_descr, .s_descr_H, .cpmeta_row {padding-left: 7px;}
+.sel_type {padding-left: 8px;}
+.td_about_a, .td_about_descr, .td_about_descr_hex, .td_about_descr_i, .trans_button, .trans_button_U, .trans_button_K, .td_charts {padding-left: 10px;}
+h1, .tc_H, .vdescr5, .vdescr9 {padding-left: 11px;}
+.trans, .about, .manu, .trans_IE, .about_IE {padding-left: 12px;}
+.symbol_descr_audio {padding-left: 15px;}
+.img_manu {padding-left: 25px;}
+/*padding-right*/
+.sym_descr_com, .about, .about_IE {padding-right: 1px;}
+.symSR2, .cpmetaR {padding-right: 2px;}
+.symSR3 {padding-right: 3px;}
+.tablesR {padding-right: 4px;}
+.td_about, .s_descr {padding-right: 5px;}
+.trans_fsize, .cpvd, .cpvdnone, .cnpmeta, .cnpmetaL, .cnpmetaR, .cosymvd, .tooltipL, .trans, .trans_IE, .trans_i, .trans_i_K {padding-right: 6px;}
+body {padding-right: 9px;}
+.codescr, .s_descr_H, .td_about_a, .td_about_b, .td_about_descr, .td_about_descr_hex, .td_about_descr_i, .td_charts_h {padding-right: 10px;}
+.cnpdescr, .cnpdescrT, .cnpdescrB, .diadescr, .supradescr, .tdescr, .tdescrR, .tdescrRB, .tdescrB {padding-right: 11px;}
+.manu {padding-right: 12px;}
+.symS_Tor {padding-right: 14px;}
+/*padding-top*/
+.trans_i, .trans_i_K {padding-top: 0; padding-bottom: 0px;}
+.tablesM, .tooltip_S_IE {padding-top: 1px;}
+.symL_IE {padding-top: 2px;}
+.trans_fsize, .symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_3, .tooltipM {padding-top: 3px;}
+.td_about_a, .td_about_b, .about_thanks {padding-top: 5px;}
+li, .trans_bckg_2, .symS_IE, .comment, .comment_v, .tooltip {padding-top: 6px;}
+.about, .manu, .about_IE {padding-top: 9px;}
+.trans, .trans_IE, .s_scont {padding-top: 12px;}
+.sel_type {padding-top: 18px;}
+/*padding-bottom*/
+.tablesT {padding-bottom: 1px;}
+.symbol_ex, .symbol_ex_2, .symbol_ex_3, .symbol_ex_8, .tooltipM {padding-bottom: 3px;}
+li, .symL {padding-bottom: 5px;}
+.trans_bckg_2, .trans, .trans_IE {padding-bottom: 12px;}
+.about, .manu, .about_IE {padding-bottom: 9px;}
+.comment, .comment_v {padding-bottom: 10px;}
+.tc_H {padding-bottom: 12px;}
+.sel_type, .manu_cont {padding-bottom: 18px;}
+
+/*CURSOR*/
+h1, .tc_H, .blank_N, .blank_W, .trans_button, .trans_button_U, .trans_button_K, .symS, .symS_Mid, .symS_Tor, .symL, .symL_IE, .symSL2, .symSL3, .symSR2, .symSR3, .ex_button, .ex_button_x, .play_1, .play_2, .pause, .loop, .volup, .voldown, .mute, .s_cont_S, .s_cont_S_Tor, .s_cont_S_K1, .s_cont_S_K2, .s_cont_S_Mid, .s_cont_L, s_cont_S_IE {cursor: pointer;}
+
+/*OTHER*/
+.preview {z-index: 110;}
+.tooltip {z-index: 210;}
+input:focus, select:focus, button:focus, textarea:focus {outline: none;}
+.main_container {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	-khtml-user-select: none; /* Konqueror */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	/* user-select: none; Non-prefixed version, currently not supported by any browser */
+}
+.sel_symbol {
+	-webkit-touch-callout: text; /* iOS Safari */
+	-webkit-user-select: text; /* Chrome/Safari/Opera */
+	-khtml-user-select: text; /* Konqueror */
+	-moz-user-select: text; /* Firefox */
+	-ms-user-select: text; /* Internet Explorer/Edge */
+	/* user-select: text; Non-prefixed version, currently not supported by any browser */
+}
+
+/*SELECTION*/
+::-moz-selection {color: rgba(255,255,255,1); background: rgba(193,79,30,1);}
+::selection {color: rgba(255,255,255,1); background: rgba(193,79,30,1);}
+.sel_symbol::-moz-selection {background: transparent;}
+.sel_symbol::selection {background: transparent;}
