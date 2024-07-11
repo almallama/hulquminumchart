@@ -1,2 +1,2 @@
-# hulquminumchart
-Making an interaction chart of the consonants for Hul'q'umi'num'
+# Interactive Chart of the consonants of Hul'q'umi'num'
+This chart is based on the IPA 2018 I-Chart, and shows the consonants of Hul'q'umi'num' 
